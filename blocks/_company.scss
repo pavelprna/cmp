@@ -1,0 +1,45 @@
+.company {
+  padding-top: 192px;
+  background: url(../images/logo/header-background.svg) right -275px top -90px no-repeat;
+
+  &__category {
+    margin-bottom: 23px;
+  }
+
+  &__title {
+    margin-bottom: 38px;
+  }
+
+  &__paragraph {
+    margin-bottom: 35px;
+  }
+
+  &__icon {
+    top: 96px;
+    left: -54px;
+    background-image: url(../images/logo/card-megaphone.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &__graphic {
+    bottom: -48px;
+    left: -48px;
+    background-image: url(../images/logo/company-graph.svg);
+  }
+
+  &__border-line {
+    &_size {
+      &_long {
+
+      }
+
+      &_short {
+        right: 0px;
+        bottom: 139px;
+        width: 50px;
+        height: 184px;
+      }
+    }
+  }
+}

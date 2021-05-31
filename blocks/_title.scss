@@ -23,11 +23,35 @@
       line-height: 1.33;
     }
     &_s {
+      display: flex;
+      align-items: center;
       color: #f07566;
       letter-spacing: 1px;
       font-size: 16px;
       line-height: 2;
       text-transform: uppercase;
+      &::before {
+        content: '';
+        display: block;
+        width: 12px;
+        height: 12px;
+        background: #f07566;
+        border-radius: 100%;
+        margin-right: 12px;
+      }
+    }
+  }
+  &_color {
+    &_green {
+      color: #41956d;
+      display: inline-block;
+      &::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 23px;
+        background: url(../images/logo/title-underline.svg) center / contain no-repeat;
+      }
     }
   }
 }
