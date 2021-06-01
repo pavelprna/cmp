@@ -1,0 +1,9 @@
+.about {
+  &__icon {
+    top: 34px;
+    background-image: url(../images/logo/card-icon-bag.svg);
+    @media (min-width: 530px) {
+      top: 64px;
+    }
+  }
+}
