@@ -30,13 +30,9 @@
   &__icon {
     top: 57px;
     left: 0;
-    background-image: url(../images/logo/card-megaphone.svg) ;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 30px;
+    background-image: url(../images/logo/card-megaphone.svg);
     @media (min-width: 530px) {
       top: 96px;
-      background-size: 48px 37px;
     }
   }
 
