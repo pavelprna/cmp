@@ -1,6 +1,8 @@
 .section {
-  max-width: 1440px;
-  padding: 30px 135px 160px;
+  padding: 30px 23px 160px;
   margin: 0 auto;
   box-sizing: border-box;
+  @media (min-width: 1280px) {
+    padding: 30px 135px 160px;
+  }
 }

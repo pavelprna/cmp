@@ -1,8 +1,12 @@
 .menu {
+  display: flex;
   &__list {
-    display: flex;
+    display: none;
     list-style: none;
     padding: 0;
     margin: 0;
+    @media (min-width: 768px) {
+      display: flex;
+    }
   }
 }
