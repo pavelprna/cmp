@@ -67,6 +67,7 @@
 
   &__border-line {
     position: absolute;
+    border-radius: 8px;
 
     &_size {
       &_long {
@@ -75,7 +76,6 @@
 
       &_short {
         border-radius: 8px;
-        background: #f07566;
       }
     }
   }
