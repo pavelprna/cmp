@@ -1,9 +1,36 @@
 .about {
+  &__image {
+    min-height: 240px;
+    border-top-right-radius: 21%;
+  }
+  &__graphic {
+    width: 68px;
+    height: 69px;
+    right: 0;
+    bottom: -30px;
+    background-image: url(../images/logo/card-graphic-about.svg);
+  }
   &__icon {
     top: 34px;
     background-image: url(../images/logo/card-icon-bag.svg);
     @media (min-width: 530px) {
       top: 64px;
+    }
+  }
+  &__border-line {
+    &_size {
+      &_long {
+        bottom: -8px;
+        left: 19px;
+        width: 270px;
+        height: 200px;
+      }
+      &_short {
+        left: 11px;
+        bottom: -15px;
+        width: 70px;
+        height: 85px;
+      }
     }
   }
 }

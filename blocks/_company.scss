@@ -27,9 +27,12 @@
     max-width: 548px;
   }
 
+  &__image {
+    border-top-left-radius: 21%;
+  }
+
   &__icon {
     top: 57px;
-    left: 0;
     background-image: url(../images/logo/card-megaphone.svg);
     @media (min-width: 530px) {
       top: 96px;
@@ -37,11 +40,11 @@
   }
 
   &__graphic {
-    bottom: -28px;
+    width: 130px;
+    height: 77px;
     left: 0;
+    bottom: -28px;
     background-image: url(../images/logo/company-graph.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
     @media (min-width: 530px) {
       bottom: -48px;
     }
@@ -50,7 +53,7 @@
   &__border-line {
     &_size {
       &_long {
-
+        display: none;
       }
 
       &_short {
