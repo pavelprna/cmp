@@ -7,12 +7,15 @@
     max-width: 616px;
   }
   &__image {
-    min-height: 240px;
+    height: 240px;
     border-top-right-radius: 21%;
+    object-fit: cover;
+    width: calc(100% - 24px - 27px);
     @media ($tablet) {
       margin-left: 50px;
       margin-right: 46px;
-      min-height: 448px;
+      height: 448px;
+      width: calc(100% - 50px - 46px);
     }
   }
   &__graphic {
