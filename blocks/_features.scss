@@ -2,9 +2,10 @@
   flex-direction: column-reverse;
   flex-wrap: nowrap;
   @media ($tablet) {
+    padding-top: 145px;
     flex-direction: row-reverse;
   }
   &__image-container {
-    min-width: 546px;
+    width: 546px;
   }
 }
