@@ -45,7 +45,7 @@
     background-size: contain;
     border-radius: 8px;
     box-shadow: 0 24px 48px rgba(86, 66, 0, 0.08);
-    @media (min-width: 530px) {
+    @media ($tablet) {
       width: 216px;
       height: 128px;
     }
@@ -60,7 +60,7 @@
     margin-left: 27px;
     border-radius: 8px;
     overflow: hidden;
-    @media (min-width: 530px) {
+    @media ($tablet) {
       min-height: 480px;
       min-width: 360px;
       margin-left: 48px;

@@ -14,7 +14,7 @@
   &__icon {
     top: 34px;
     background-image: url(../images/logo/card-icon-bag.svg);
-    @media (min-width: 530px) {
+    @media ($tablet) {
       top: 64px;
     }
   }

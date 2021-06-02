@@ -2,7 +2,7 @@
   padding-top: 107px;
   background: url(../images/logo/header-background.svg) right -275px top -90px no-repeat;
   flex-direction: row-reverse;
-  @media (min-width: 530px) {
+  @media ($tablet) {
     padding-top: 171px;
   }
 
@@ -34,7 +34,7 @@
   &__icon {
     top: 57px;
     background-image: url(../images/logo/card-megaphone.svg);
-    @media (min-width: 530px) {
+    @media ($tablet) {
       top: 96px;
     }
   }
@@ -45,7 +45,7 @@
     left: 0;
     bottom: -28px;
     background-image: url(../images/logo/company-graph.svg);
-    @media (min-width: 530px) {
+    @media ($tablet) {
       bottom: -48px;
     }
   }
@@ -61,7 +61,7 @@
         bottom: 69px;
         width: 50px;
         height: 184px;
-        @media (min-width: 530px) {
+        @media ($tablet) {
           bottom: 139px;
         }
       }
