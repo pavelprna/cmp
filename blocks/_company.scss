@@ -36,6 +36,9 @@
 
   &__image {
     border-top-left-radius: 21%;
+    @media ($tablet) {
+
+    }
   }
 
   &__icon {

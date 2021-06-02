@@ -10,6 +10,8 @@
     min-height: 240px;
     border-top-right-radius: 21%;
     @media ($tablet) {
+      margin-left: 50px;
+      margin-right: 46px;
       min-height: 448px;
     }
   }
@@ -21,7 +23,8 @@
     background-image: url(../images/logo/card-graphic-about.svg);
     @media ($tablet) {
       width: 128px;
-
+      height: 128px;
+      bottom: -56px;
     }
   }
   &__icon {
@@ -36,19 +39,32 @@
       &_long {
         bottom: -8px;
         left: 19px;
-        width: 270px;
-        height: 200px;
+        width: 80%;
+        height: 80%;
+        @media ($tablet) {
+          bottom: -16px;
+          left: 34px;
+        }
       }
       &_short {
         left: 11px;
         bottom: -15px;
         width: 70px;
         height: 85px;
+        @media ($tablet) {
+          left: 20px;
+          bottom: -29px;
+          width: 132px;
+          height: 160px;
+        }
       }
     }
   }
   &__content-container {
     max-width: 548px;
     margin: 63px 0 0;
+    @media ($tablet) {
+      max-width: 470px;
+    }
   }
 }
