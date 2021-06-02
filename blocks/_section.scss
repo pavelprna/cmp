@@ -3,7 +3,10 @@
   padding-right: 23px;
   margin: 0 auto;
   box-sizing: border-box;
+  @media ($tablet) {
+    padding: 30px 55px 160px;
+  }
   @media (min-width: 1280px) {
-    padding: 30px 135px 160px;
+    padding: 30px calc((100% - 1440px + 135px * 2) / 2) 160px;
   }
 }
