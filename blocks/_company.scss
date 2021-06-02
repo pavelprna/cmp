@@ -3,7 +3,7 @@
   background: url(../images/logo/header-background.svg) right -275px top -90px no-repeat;
   flex-direction: row-reverse;
   @media ($tablet) {
-    padding-top: 171px;
+    padding-top: 192px;
   }
 
   &__content-container {
@@ -13,10 +13,17 @@
   &__category {
     margin-top: 80px;
     margin-bottom: 21px;
+    @media ($tablet) {
+      margin-top: 0;
+      margin-bottom: 24px;
+    }
   }
 
   &__title {
     margin-bottom: 18px;
+    @media ($tablet) {
+      margin-bottom: 33px;
+    }
   }
 
   &__paragraph {
@@ -47,6 +54,8 @@
     background-image: url(../images/logo/company-graph.svg);
     @media ($tablet) {
       bottom: -48px;
+      width: 217px;
+      height: 128px;
     }
   }
 

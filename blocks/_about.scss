@@ -1,8 +1,17 @@
 .about {
   padding-top: 70px;
+  @media ($tablet) {
+    padding-top: 198px;
+  }
+  &__image-container {
+    max-width: 616px;
+  }
   &__image {
     min-height: 240px;
     border-top-right-radius: 21%;
+    @media ($tablet) {
+      min-height: 448px;
+    }
   }
   &__graphic {
     width: 68px;
@@ -10,6 +19,10 @@
     right: 0;
     bottom: -30px;
     background-image: url(../images/logo/card-graphic-about.svg);
+    @media ($tablet) {
+      width: 128px;
+
+    }
   }
   &__icon {
     top: 34px;
@@ -35,6 +48,7 @@
     }
   }
   &__content-container {
+    max-width: 548px;
     margin: 63px 0 0;
   }
 }
