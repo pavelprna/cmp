@@ -51,6 +51,7 @@
   }
 
   &__image {
+    box-sizing: border-box;
     display: block;
     position: relative;
     background: #d8d8d8;
@@ -64,7 +65,7 @@
     //overflow: hidden;
     @media ($tablet) {
       height: 480px;
-      width: calc(100% - 48px - 37px);
+      width: calc(100% - 48px - 38px);
       margin-left: 48px;
       margin-right: 38px;
     }

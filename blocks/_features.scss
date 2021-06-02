@@ -1,0 +1,10 @@
+.features {
+  flex-direction: column-reverse;
+  flex-wrap: nowrap;
+  @media ($tablet) {
+    flex-direction: row-reverse;
+  }
+  &__image-container {
+    min-width: 546px;
+  }
+}
