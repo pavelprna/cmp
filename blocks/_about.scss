@@ -1,11 +1,13 @@
 .about {
-  padding-top: 70px;
+  padding-top: 140px;
   @media ($tablet) {
     padding-top: 198px;
   }
   &__image-container {
+    padding-left: 27px;
   }
   &__image {
+    height: 240px;
   }
   &__graphic {
     width: 68px;
@@ -58,5 +60,17 @@
     @media ($tablet) {
       max-width: 470px;
     }
+  }
+  &__category {
+    margin-bottom: 17px;
+  }
+  &__title {
+    margin-bottom: 13px;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 20px 0 0 32px;
+    margin: 0 0 37px;
   }
 }

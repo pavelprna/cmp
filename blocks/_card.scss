@@ -21,7 +21,6 @@
     box-sizing: border-box;
     position: relative;
     padding: 0 23px 0 30px;
-    //max-width: 329px;
     @media (min-width: 768px) {
       max-width: 375px;
     }
@@ -68,7 +67,7 @@
 
   &__border-line {
     position: absolute;
-    border-radius: 8px;
+    border-radius: 4px;
 
     &_size {
       border-radius: 8px;
