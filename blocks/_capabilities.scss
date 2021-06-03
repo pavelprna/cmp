@@ -9,8 +9,9 @@
   &__card {
     padding: 32px 32px 38px;
     border: 1px solid #e6edf5;
+    //todo: add color var
     border-radius: 8px;
-    background: #fff;
+    background: $white;
   }
   &__icon {
     padding-bottom: 77px;

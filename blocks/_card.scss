@@ -29,7 +29,7 @@
   &__icon {
     position: absolute;
     left: 0;
-    background: #4db282 center no-repeat;
+    background: $green center no-repeat;
     background-size: 26px;
     width: 54px;
     height: 54px;
@@ -44,7 +44,7 @@
 
   &__graphic {
     position: absolute;
-    background: #fff no-repeat;
+    background: $white no-repeat;
     background-size: contain;
     border-radius: 8px;
     box-shadow: 0 24px 48px rgba(86, 66, 0, 0.08);
@@ -54,6 +54,7 @@
     box-sizing: border-box;
     display: block;
     position: relative;
+    //todo: add var?
     background: #d8d8d8;
     object-fit: cover;
     height: 288px;
@@ -78,11 +79,11 @@
     &_size {
       border-radius: 8px;
       &_long {
-        background: #fbd34b;
+        background: $yellow;
       }
 
       &_short {
-        background: #f07566;
+        background: $red;
       }
     }
   }
