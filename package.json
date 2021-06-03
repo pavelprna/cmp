@@ -1,0 +1,24 @@
+{
+  "name": "cmp",
+  "version": "1.0.0",
+  "description": "---",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelprna/cmp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavelprna/cmp/issues"
+  },
+  "homepage": "https://github.com/pavelprna/cmp#readme",
+  "devDependencies": {
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0"
+  }
+}
