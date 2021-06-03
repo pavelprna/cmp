@@ -1,44 +1,14 @@
 .company {
   padding-top: 107px;
-  background: url(../images/logo/header-background.svg) right -275px top -90px no-repeat;
-  flex-direction: row-reverse;
-  @media ($tablet) {
-    padding-top: 192px;
-  }
 
-  &__content-container {
-    max-width: 548px;
-  }
-
-  &__category {
-    margin-top: 80px;
-    margin-bottom: 21px;
-    @media ($tablet) {
-      margin-top: 0;
-      margin-bottom: 24px;
-    }
-  }
-
-  &__title {
-    margin-bottom: 18px;
-    @media ($tablet) {
-      margin-bottom: 33px;
-    }
-  }
-
-  &__paragraph {
-    margin-bottom: 39px;
+  &__card {
+    //flex-direction: row-reverse;
   }
 
   &__image-container {
-    max-width: 548px;
-
-  }
-
-  &__image {
-    border-top-left-radius: 21%;
-    @media ($tablet) {
-
+    //max-width: 329px;
+    @media (min-width: 768px) {
+      order: 1;
     }
   }
 
@@ -71,11 +41,12 @@
 
       &_short {
         right: 0;
-        bottom: 69px;
-        width: 50px;
-        height: 184px;
+        top: 94px;
+        width: 40px;
+        height: 110px;
         @media ($tablet) {
           bottom: 139px;
+          height: 184px;
         }
       }
     }
