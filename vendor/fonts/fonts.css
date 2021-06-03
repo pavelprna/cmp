@@ -1,26 +1,26 @@
 /* hind-siliguri-700 - latin */
 @font-face {
-  font-family: 'Hind Siliguri';
+  font-family: "Hind Siliguri";
   font-style: normal;
   font-weight: 700;
-  src: url('./hind-siliguri-v7-latin-700.woff2') format('woff2'),
-    url('./hind-siliguri-v7-latin-700.woff') format('woff');
+  src: url("./hind-siliguri-v7-latin-700.woff2") format("woff2"),
+    url("./hind-siliguri-v7-latin-700.woff") format("woff");
 }
 
 /* work-sans-regular - latin */
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   font-style: normal;
   font-weight: 400;
-  src: url('./work-sans-v9-latin-regular.woff2') format('woff2'),
-    url('./work-sans-v9-latin-regular.woff') format('woff');
+  src: url("./work-sans-v9-latin-regular.woff2") format("woff2"),
+    url("./work-sans-v9-latin-regular.woff") format("woff");
 }
 
 /* arimo-700 - latin */
 @font-face {
-  font-family: 'Arimo';
+  font-family: "Arimo";
   font-style: normal;
   font-weight: 700;
-  src: url('./arimo-v17-latin-700.woff2') format('woff2'),
-    url('./arimo-v17-latin-700.woff') format('woff');
+  src: url("./arimo-v17-latin-700.woff2") format("woff2"),
+    url("./arimo-v17-latin-700.woff") format("woff");
 }
