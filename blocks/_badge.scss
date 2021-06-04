@@ -1,0 +1,22 @@
+.badge {
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0 24px 48px rgba(0, 17, 86, 0.08);
+  padding: 26px 32px;
+
+  &__title {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 7px;
+  }
+
+  &__paragraph {
+    margin: 0;
+    line-height: 24px;
+  }
+
+  &__icon {
+    display: inline-block;
+    transform: translateY(4px);
+  }
+}

@@ -1,2 +1,15 @@
 .features {
+  padding-top: 155px;
+
+  &__title {
+    margin: 17px 0 14px;
+  }
+
+  &__paragraph {
+    margin: 0 0 20px;
+  }
+
+  &__image-container {
+    order: 1;
+  }
 }
