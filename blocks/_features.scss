@@ -1,5 +1,6 @@
 .features {
   padding-top: 155px;
+  padding-bottom: 80px;
 
   &__title {
     margin: 17px 0 14px;
@@ -11,5 +12,23 @@
 
   &__image-container {
     order: 1;
+    margin-top: 96px;
+    padding: 0 18px 0 33px;
+  }
+
+  &__graphic {
+    width: 130px;
+    height: 77px;
+    left: 107px;
+    bottom: -30px;
+    background-image: url(../images/logo/card-graphic-features.svg);
+  }
+
+  &__icon {
+    top: 58px;
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/logo/card-icon-tablet.svg);
+    background-size: 22px;
   }
 }
