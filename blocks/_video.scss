@@ -1,0 +1,35 @@
+.video {
+  background: $red;
+  color: $white;
+
+  &__container {
+    width: 100%;
+    position: relative;
+    min-height: 384px;
+  }
+
+  &__image {
+    width: 100%;
+    height: 464px;
+    position: absolute;
+    left: 0;
+    top: -26px;
+    background-image: url(../images/video-image.jpg);
+    mask-image: url(../images/logo/video-mask.svg);
+    -webkit-mask-image: url(../images/logo/video-mask.svg);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+  }
+
+  &__content {
+    padding-top: 400px;
+  }
+
+  &__title {
+    color: $white;
+  }
+}
