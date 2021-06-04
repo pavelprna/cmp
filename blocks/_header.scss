@@ -3,9 +3,11 @@
   display: flex;
   align-items: center;
   padding-top: 16px;
+
   @media ($tablet) {
     padding: 16px 55px 16px;
   }
+
   @media (min-width: 1280px) {
     padding: 16px calc((100% - 1440px + 135px * 2) / 2) 16px;
   }
